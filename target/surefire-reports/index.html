@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-example1">
+              <span class="suite-name border-skipped">example1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-example1">
+                    <span>D:\Discovery Automation\Discovery.UI.Automation\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-example1">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-example1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-example1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-example1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-example1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-example1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,  4 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-example1" class="hide-methods skipped suite-example1"> (hide)</a> <!-- hide-methods skipped suite-example1 -->
+                      <a href="#" panel-name="suite-example1" class="show-methods skipped suite-example1"> (show)</a> <!-- show-methods skipped suite-example1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-example1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.NewCaseEntryTabTest" hash-for-method="addNewCaseEntry({suffixid=1234567.0, ssn=1.23456789E8, adddiscription=ABCXYZDEF, Cname=Rush, Runmode=N, FristName=a,...)">addNewCaseEntry({suffixid=1234567.0, ssn=1.23456789E8, adddiscription=ABCXYZDEF, Cname=Rush, Runmode=N, FristName=a,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.ActivitytTabTest" hash-for-method="clickActivity({Text2=ALL, Text1=NEW: Investigation, Runmode=N, Aname=Audit: Issue resolved with case manager, Anot...)">clickActivity({Text2=ALL, Text1=NEW: Investigation, Runmode=N, Aname=Audit: Issue resolved with case manager, Anot...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.DiaryTabTest" hash-for-method="clickActivity({diarydisc=Sample diary , changestatus1=Open, diarytype=ASAP, changestatus=Closed, Runmode=N, diaryc...)">clickActivity({diarydisc=Sample diary , changestatus1=Open, diarytype=ASAP, changestatus=Closed, Runmode=N, diaryc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.LetterTabTest" hash-for-method="clickActivity({LetterRecipent=Member, Ptype=Email, Runmode=N, inputdate=4/4/19, letter=22_Accounting Refund, Lette...)">clickActivity({LetterRecipent=Member, Ptype=Email, Runmode=N, inputdate=4/4/19, letter=22_Accounting Refund, Lette...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-example1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-example1" class="hide-methods passed suite-example1"> (hide)</a> <!-- hide-methods passed suite-example1 -->
+                      <a href="#" panel-name="suite-example1" class="show-methods passed suite-example1"> (show)</a> <!-- show-methods passed suite-example1 -->
+                    </span>
+                    <div class="method-list-content passed suite-example1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.COBCaseSearchTest" hash-for-method="clickActivity({CaseStatus1=Investigation, Ctype1=COB Case, Runmode=Y, Claimtype1=Age Over 65, CsNumber=1058208, Cn...)">clickActivity({CaseStatus1=Investigation, Ctype1=COB Case, Runmode=Y, Claimtype1=Age Over 65, CsNumber=1058208, Cn...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.LoginTest" hash-for-method="doLogin({CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Run...)">doLogin({CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Run...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.COBActivitytTabTest" hash-for-method="doLogin({Txt1=Sample Activity, Anote1=Notes: Investigation , Runmode=Y, Aname1=Complaint: disconnected, Txt2...)">doLogin({Txt1=Sample Activity, Anote1=Notes: Investigation , Runmode=Y, Aname1=Complaint: disconnected, Txt2...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.COBDiaryTabTest" hash-for-method="doLogin({diarycatogory1=Investigation, changestatus3=Open, changestatus2=Closed, diarytype1=ASAP, Runmode=Y,...)">doLogin({diarycatogory1=Investigation, changestatus3=Open, changestatus2=Closed, diarytype1=ASAP, Runmode=Y,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example1" title="testCases.COBNewCaseEntryTabTest" hash-for-method="doLogin({AcName1=a, TypeofCase1=COB Case, suffixid=1234567.0, ssn=1.23456789E8, adddiscription1=ABCXYZDEF, R...)">doLogin({AcName1=a, TypeofCase1=COB Case, suffixid=1234567.0, ssn=1.23456789E8, adddiscription1=ABCXYZDEF, R...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-example1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-example1" class="panel example1">
+          <div class="suite-example1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.LetterTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickActivity({LetterRecipent=Member, Ptype=Email, Runmode=N, inputdate=4/4/19, letter=22_Accounting Refund, Lette...)">
+                  </a> <!-- clickActivity({LetterRecipent=Member, Ptype=Email, Runmode=N, inputdate=4/4/19, letter=22_Accounting Refund, Lette...) -->
+                  <span class="method-name">clickActivity</span>
+                  <span class="parameters">({LetterRecipent=Member, Ptype=Email, Runmode=N, inputdate=4/4/19, letter=22_Accounting Refund, Lettertype=Outgoing, letterType=Accounting Letters})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is set to no
+	at testCases.LetterTabTest.clickActivity(LetterTabTest.java:25)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-skipped -->
+          <div class="suite-example1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.NewCaseEntryTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewCaseEntry({suffixid=1234567.0, ssn=1.23456789E8, adddiscription=ABCXYZDEF, Cname=Rush, Runmode=N, FristName=a,...)">
+                  </a> <!-- addNewCaseEntry({suffixid=1234567.0, ssn=1.23456789E8, adddiscription=ABCXYZDEF, Cname=Rush, Runmode=N, FristName=a,...) -->
+                  <span class="method-name">addNewCaseEntry</span>
+                  <span class="parameters">({suffixid=1234567.0, ssn=1.23456789E8, adddiscription=ABCXYZDEF, Cname=Rush, Runmode=N, FristName=a, lastname=Patil, AcName=a, memberid=66675908994089378, address=ABCXYZ, fistname=Swanand, TypeofCase=TPL Case})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is set to no
+	at testCases.NewCaseEntryTabTest.addNewCaseEntry(NewCaseEntryTabTest.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-skipped -->
+          <div class="suite-example1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.DiaryTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickActivity({diarydisc=Sample diary , changestatus1=Open, diarytype=ASAP, changestatus=Closed, Runmode=N, diaryc...)">
+                  </a> <!-- clickActivity({diarydisc=Sample diary , changestatus1=Open, diarytype=ASAP, changestatus=Closed, Runmode=N, diaryc...) -->
+                  <span class="method-name">clickActivity</span>
+                  <span class="parameters">({diarydisc=Sample diary , changestatus1=Open, diarytype=ASAP, changestatus=Closed, Runmode=N, diarycatogory=All})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is set to no
+	at testCases.DiaryTabTest.clickActivity(DiaryTabTest.java:25)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-skipped -->
+          <div class="suite-example1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.ActivitytTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickActivity({Text2=ALL, Text1=NEW: Investigation, Runmode=N, Aname=Audit: Issue resolved with case manager, Anot...)">
+                  </a> <!-- clickActivity({Text2=ALL, Text1=NEW: Investigation, Runmode=N, Aname=Audit: Issue resolved with case manager, Anot...) -->
+                  <span class="method-name">clickActivity</span>
+                  <span class="parameters">({Text2=ALL, Text1=NEW: Investigation, Runmode=N, Aname=Audit: Issue resolved with case manager, Anote=Notes: Investigation})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is set to no
+	at testCases.ActivitytTabTest.clickActivity(ActivitytTabTest.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-skipped -->
+          <div class="suite-example1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.COBCaseSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickActivity({CaseStatus1=Investigation, Ctype1=COB Case, Runmode=Y, Claimtype1=Age Over 65, CsNumber=1058208, Cn...)">
+                  </a> <!-- clickActivity({CaseStatus1=Investigation, Ctype1=COB Case, Runmode=Y, Claimtype1=Age Over 65, CsNumber=1058208, Cn...) -->
+                  <span class="method-name">clickActivity</span>
+                  <span class="parameters">({CaseStatus1=Investigation, Ctype1=COB Case, Runmode=Y, Claimtype1=Age Over 65, CsNumber=1058208, Cname1=(003) Rush})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-passed -->
+          <div class="suite-example1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Run...)">
+                  </a> <!-- doLogin({CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Run...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Runmode=Y, UserName=syntelqa@nitorsso.onmicrosoft.com, Claimtype=Medical Payments Coverage, Title=Case Management, Password=Atos!123, Ctype=TPL Case, Browser=chrome, CaseSearchResult=Case Search Results})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-passed -->
+          <div class="suite-example1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.COBDiaryTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({diarycatogory1=Investigation, changestatus3=Open, changestatus2=Closed, diarytype1=ASAP, Runmode=Y,...)">
+                  </a> <!-- doLogin({diarycatogory1=Investigation, changestatus3=Open, changestatus2=Closed, diarytype1=ASAP, Runmode=Y,...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({diarycatogory1=Investigation, changestatus3=Open, changestatus2=Closed, diarytype1=ASAP, Runmode=Y, diarydisc1=Sample diary })</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-passed -->
+          <div class="suite-example1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.COBActivitytTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({Txt1=Sample Activity, Anote1=Notes: Investigation , Runmode=Y, Aname1=Complaint: disconnected, Txt2...)">
+                  </a> <!-- doLogin({Txt1=Sample Activity, Anote1=Notes: Investigation , Runmode=Y, Aname1=Complaint: disconnected, Txt2...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({Txt1=Sample Activity, Anote1=Notes: Investigation , Runmode=Y, Aname1=Complaint: disconnected, Txt2=ALL})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-passed -->
+          <div class="suite-example1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.COBNewCaseEntryTabTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLogin({AcName1=a, TypeofCase1=COB Case, suffixid=1234567.0, ssn=1.23456789E8, adddiscription1=ABCXYZDEF, R...)">
+                  </a> <!-- doLogin({AcName1=a, TypeofCase1=COB Case, suffixid=1234567.0, ssn=1.23456789E8, adddiscription1=ABCXYZDEF, R...) -->
+                  <span class="method-name">doLogin</span>
+                  <span class="parameters">({AcName1=a, TypeofCase1=COB Case, suffixid=1234567.0, ssn=1.23456789E8, adddiscription1=ABCXYZDEF, Runmode=Y, FristName1=a, lastname=Patil, memberid=66675908994089378, address=ABCXYZ, fistname=Swanand, Cname3=Rush})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example1-class-passed -->
+        </div> <!-- panel example1 -->
+        <div panel-name="test-xml-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Discovery Automation\Discovery.UI.Automation\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;example1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Activity Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ActivitytTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Activity Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Diary Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.DiaryTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Diary Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;NewcaseEntry Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.NewCaseEntryTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NewcaseEntry Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;COBCaseSearchTest Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.COBCaseSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- COBCaseSearchTest Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;COBActivitytTabTest Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.COBActivitytTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- COBActivitytTabTest Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;COBDiaryTabTest Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.COBDiaryTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- COBDiaryTabTest Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;COBNewCaseEntryTabTest Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.COBNewCaseEntryTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- COBNewCaseEntryTabTest Tab Test --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Letter Tab Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.LetterTabTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Letter Tab Test --&gt;
+&lt;/suite&gt; &lt;!-- example1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for example1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Activity Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Diary Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NewcaseEntry Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">COBCaseSearchTest Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">COBActivitytTabTest Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">COBDiaryTabTest Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">COBNewCaseEntryTabTest Tab Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Letter Tab Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for example1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for example1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_example1');
+function tableData_example1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doLogin')
+data.setCell(0, 2, 'testCases.COBDiaryTabTest')
+data.setCell(0, 3, 529999);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doLogin')
+data.setCell(1, 2, 'testCases.LoginTest')
+data.setCell(1, 3, 394528);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickActivity')
+data.setCell(2, 2, 'testCases.COBCaseSearchTest')
+data.setCell(2, 3, 276316);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doLogin')
+data.setCell(3, 2, 'testCases.COBNewCaseEntryTabTest')
+data.setCell(3, 3, 264183);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doLogin')
+data.setCell(4, 2, 'testCases.COBActivitytTabTest')
+data.setCell(4, 3, 43273);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickActivity')
+data.setCell(5, 2, 'testCases.ActivitytTabTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickActivity')
+data.setCell(6, 2, 'testCases.DiaryTabTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addNewCaseEntry')
+data.setCell(7, 2, 'testCases.NewCaseEntryTabTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickActivity')
+data.setCell(8, 2, 'testCases.LetterTabTest')
+data.setCell(8, 3, 0);
+window.suiteTableData['example1']= { tableData: data, tableDiv: 'times-div-example1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 minutes</span>
+              <div id="times-div-example1">
+              </div> <!-- times-div-example1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for example1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-example1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin({CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Run...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ActivitytTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickActivity({Text2=ALL, Text1=NEW: Investigation, Runmode=N, Aname=Audit: Issue resolved with case manager, Anot...)</span>
+                <span class="method-start">394574 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.DiaryTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickActivity({diarydisc=Sample diary , changestatus1=Open, diarytype=ASAP, changestatus=Closed, Runmode=N, diaryc...)</span>
+                <span class="method-start">394609 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.NewCaseEntryTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addNewCaseEntry({suffixid=1234567.0, ssn=1.23456789E8, adddiscription=ABCXYZDEF, Cname=Rush, Runmode=N, FristName=a,...)</span>
+                <span class="method-start">394664 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.COBCaseSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickActivity({CaseStatus1=Investigation, Ctype1=COB Case, Runmode=Y, Claimtype1=Age Over 65, CsNumber=1058208, Cn...)</span>
+                <span class="method-start">394706 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.COBActivitytTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin({Txt1=Sample Activity, Anote1=Notes: Investigation , Runmode=Y, Aname1=Complaint: disconnected, Txt2...)</span>
+                <span class="method-start">671062 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.COBDiaryTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin({diarycatogory1=Investigation, changestatus3=Open, changestatus2=Closed, diarytype1=ASAP, Runmode=Y,...)</span>
+                <span class="method-start">714362 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.COBNewCaseEntryTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin({AcName1=a, TypeofCase1=COB Case, suffixid=1234567.0, ssn=1.23456789E8, adddiscription1=ABCXYZDEF, R...)</span>
+                <span class="method-start">1244386 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LetterTabTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickActivity({LetterRecipent=Member, Ptype=Email, Runmode=N, inputdate=4/4/19, letter=22_Accounting Refund, Lette...)</span>
+                <span class="method-start">1508597 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [example1]">
+  <test thread-count="5" verbose="0" name="Activity Tab Test(failed)">
+    <classes>
+      <class name="testCases.ActivitytTabTest">
+        <methods>
+          <include name="clickActivity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.ActivitytTabTest -->
+    </classes>
+  </test> <!-- Activity Tab Test(failed) -->
+  <test thread-count="5" verbose="0" name="Diary Tab Test(failed)">
+    <classes>
+      <class name="testCases.DiaryTabTest">
+        <methods>
+          <include name="clickActivity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.DiaryTabTest -->
+    </classes>
+  </test> <!-- Diary Tab Test(failed) -->
+  <test thread-count="5" verbose="0" name="NewcaseEntry Tab Test(failed)">
+    <classes>
+      <class name="testCases.NewCaseEntryTabTest">
+        <methods>
+          <include name="addNewCaseEntry" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.NewCaseEntryTabTest -->
+    </classes>
+  </test> <!-- NewcaseEntry Tab Test(failed) -->
+  <test thread-count="5" verbose="0" name="Letter Tab Test(failed)">
+    <classes>
+      <class name="testCases.LetterTabTest">
+        <methods>
+          <include name="clickActivity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.LetterTabTest -->
+    </classes>
+  </test> <!-- Letter Tab Test(failed) -->
+</suite> <!-- Failed suite [example1] -->

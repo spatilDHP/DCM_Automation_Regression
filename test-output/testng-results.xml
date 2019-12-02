@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example1" duration-ms="22613" started-at="2019-05-21T14:58:06Z" finished-at="2019-05-21T14:58:29Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="22241" started-at="2019-05-21T14:58:06Z" finished-at="2019-05-21T14:58:28Z">
+      <class name="testCases.LoginTest">
+        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@33c911a1]" name="doLogin" duration-ms="22209" started-at="2019-05-21T14:58:06Z" data-provider="getdata" finished-at="2019-05-21T14:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Lp@%&1123, Runmode=Y, Text=Discovery Case Management, UserName=nitorqa@NitorSSO.onmicrosoft.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail -Unable to input text onusername]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail -Unable to input text onusername
+at org.testng.Assert.fail(Assert.java:96)
+at com.qtpselenium.util.Keywords.executekeywords(Keywords.java:146)
+at testCases.LoginTest.doLogin(LoginTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Case Creation" duration-ms="279" started-at="2019-05-21T14:58:29Z" finished-at="2019-05-21T14:58:29Z">
+      <class name="testCases.CaseCreation">
+        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.CaseCreation@484970b0]" name="doLogin" duration-ms="279" started-at="2019-05-21T14:58:29Z" data-provider="getdata" finished-at="2019-05-21T14:58:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Password=Lp@%&1123, Runmode=Y, Text=Discovery Case Management, UserName=nitorqa@NitorSSO.onmicrosoft.com, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail -Unable to navigate toCaseEntry]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail -Unable to navigate toCaseEntry
+at org.testng.Assert.fail(Assert.java:96)
+at com.qtpselenium.util.Keywords.executekeywords(Keywords.java:146)
+at testCases.CaseCreation.doLogin(CaseCreation.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testCases.CaseCreation -->
+    </test> <!-- Case Creation -->
+  </suite> <!-- example1 -->
+</testng-results>

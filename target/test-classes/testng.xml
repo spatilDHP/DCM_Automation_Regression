@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="example1" >
+	<test name="Login Test">
+		<classes>
+			<class name="testCases.LoginTest" />
+            
+		</classes>
+	</test>
+
+<test name="Activity Tab Test">
+		<classes>
+			<class name="testCases.ActivitytTabTest" />
+            
+	</classes>
+	</test>
+
+<test name="Diary Tab Test">
+		<classes>
+			<class name="testCases.DiaryTabTest" />
+            
+	</classes>
+	</test>
+<test name="NewcaseEntry Tab Test">
+		<classes>
+			<class name="testCases.NewCaseEntryTabTest" />
+            
+	</classes>
+	</test>
+<test name="COBCaseSearchTest Tab Test">
+		<classes>
+			<class name="testCases.COBCaseSearchTest" />
+            
+	</classes>
+	</test>
+
+<test name="COBActivitytTabTest Tab Test">
+		<classes>
+			<class name="testCases.COBActivitytTabTest" />
+            
+	</classes>
+	</test>
+	
+	<test name="COBDiaryTabTest Tab Test">
+		<classes>
+			<class name="testCases.COBDiaryTabTest" />
+            
+	</classes>
+	</test>
+	
+	
+	<test name="COBNewCaseEntryTabTest Tab Test">
+		<classes>
+			<class name="testCases.COBNewCaseEntryTabTest" />
+            
+	</classes>
+	</test>
+
+<test name="Letter Tab Test">
+		<classes>
+			<class name="testCases.LetterTabTest" />
+            
+	</classes>
+	</test>
+
+
+</suite>
