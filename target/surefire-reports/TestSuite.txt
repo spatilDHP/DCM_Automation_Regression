@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 1,496.985 sec - in TestSuite
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 805.048 sec <<< FAILURE! - in TestSuite
+doLogin(testCases.COBDiaryTabTest)  Time elapsed: 118.97 sec  <<< FAILURE!
+java.lang.AssertionError: Fail -Unable to select the optiondiarycatogory1
+	at testCases.COBDiaryTabTest.doLogin(COBDiaryTabTest.java:28)
+
+doLogin(testCases.COBNewCaseEntryTabTest)  Time elapsed: 56.811 sec  <<< FAILURE!
+java.lang.AssertionError: Fail -Unable to select the optionclientname3
+	at testCases.COBNewCaseEntryTabTest.doLogin(COBNewCaseEntryTabTest.java:29)
+

@@ -28,6 +28,24 @@
       </class> <!-- testCases.NewCaseEntryTabTest -->
     </classes>
   </test> <!-- NewcaseEntry Tab Test(failed) -->
+  <test thread-count="5" verbose="0" name="COBDiaryTabTest Tab Test(failed)">
+    <classes>
+      <class name="testCases.COBDiaryTabTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.COBDiaryTabTest -->
+    </classes>
+  </test> <!-- COBDiaryTabTest Tab Test(failed) -->
+  <test thread-count="5" verbose="0" name="COBNewCaseEntryTabTest Tab Test(failed)">
+    <classes>
+      <class name="testCases.COBNewCaseEntryTabTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.COBNewCaseEntryTabTest -->
+    </classes>
+  </test> <!-- COBNewCaseEntryTabTest Tab Test(failed) -->
   <test thread-count="5" verbose="0" name="Letter Tab Test(failed)">
     <classes>
       <class name="testCases.LetterTabTest">

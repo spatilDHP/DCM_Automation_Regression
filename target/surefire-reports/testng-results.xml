@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" ignored="0" total="9" passed="5">
+<testng-results skipped="4" failed="2" ignored="0" total="9" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="example1" duration-ms="1495415" started-at="2019-12-02T06:37:22Z" finished-at="2019-12-02T07:02:18Z">
+  <suite name="example1" duration-ms="803579" started-at="2020-03-06T06:58:56Z" finished-at="2020-03-06T07:12:19Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="377941" started-at="2019-12-02T06:37:22Z" finished-at="2019-12-02T06:43:40Z">
+    <test name="Login Test" duration-ms="310809" started-at="2020-03-06T06:58:56Z" finished-at="2020-03-06T07:04:06Z">
       <class name="testCases.LoginTest">
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@4c371370]" name="doLogin" duration-ms="377906" started-at="2019-12-02T06:37:22Z" data-provider="getdata" finished-at="2019-12-02T06:43:40Z">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@34a3d150]" name="doLogin" duration-ms="310775" started-at="2020-03-06T06:58:56Z" data-provider="getdata" finished-at="2020-03-06T07:04:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Runmode=Y, UserName=syntelqa@nitorsso.onmicrosoft.com, Claimtype=Medical Payments Coverage, Title=Case Management, Password=Atos!123, Ctype=TPL Case, Browser=chrome, CaseSearchResult=Case Search Results}]]>
+                <![CDATA[{CaseNumber=1058238, CaseStatus=Investigation, Cname=(003) Rush, Text=Discovery Case Management, Runmode=Y, UserName=syntelqa@nitorsso.onmicrosoft.com, Claimtype=Medical Payments Coverage, Title=Case Management, Password=Atos!120, Ctype=TPL Case, Browser=chrome, CaseSearchResult=Case Search Results}]]>
               </value>
             </param>
           </params>
@@ -20,9 +20,9 @@
         </test-method> <!-- doLogin -->
       </class> <!-- testCases.LoginTest -->
     </test> <!-- Login Test -->
-    <test name="Activity Tab Test" duration-ms="2" started-at="2019-12-02T06:43:40Z" finished-at="2019-12-02T06:43:40Z">
+    <test name="Activity Tab Test" duration-ms="2" started-at="2020-03-06T07:04:06Z" finished-at="2020-03-06T07:04:06Z">
       <class name="testCases.ActivitytTabTest">
-        <test-method status="SKIP" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.ActivitytTabTest@4afcd809]" name="clickActivity" duration-ms="0" started-at="2019-12-02T06:43:40Z" data-provider="getdata" finished-at="2019-12-02T06:43:40Z">
+        <test-method status="SKIP" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.ActivitytTabTest@408d971b]" name="clickActivity" duration-ms="1" started-at="2020-03-06T07:04:06Z" data-provider="getdata" finished-at="2020-03-06T07:04:06Z">
           <params>
             <param index="0">
               <value>
@@ -38,9 +38,9 @@
               <![CDATA[org.testng.SkipException: Skipping the test as runmode is set to no
 at testCases.ActivitytTabTest.clickActivity(ActivitytTabTest.java:24)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
@@ -73,9 +73,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
         </test-method> <!-- clickActivity -->
       </class> <!-- testCases.ActivitytTabTest -->
     </test> <!-- Activity Tab Test -->
-    <test name="Diary Tab Test" duration-ms="2" started-at="2019-12-02T06:43:40Z" finished-at="2019-12-02T06:43:40Z">
+    <test name="Diary Tab Test" duration-ms="4" started-at="2020-03-06T07:04:06Z" finished-at="2020-03-06T07:04:06Z">
       <class name="testCases.DiaryTabTest">
-        <test-method status="SKIP" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.DiaryTabTest@7586beff]" name="clickActivity" duration-ms="0" started-at="2019-12-02T06:43:40Z" data-provider="getdata" finished-at="2019-12-02T06:43:40Z">
+        <test-method status="SKIP" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.DiaryTabTest@6a78afa0]" name="clickActivity" duration-ms="1" started-at="2020-03-06T07:04:06Z" data-provider="getdata" finished-at="2020-03-06T07:04:06Z">
           <params>
             <param index="0">
               <value>
@@ -91,9 +91,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[org.testng.SkipException: Skipping the test as runmode is set to no
 at testCases.DiaryTabTest.clickActivity(DiaryTabTest.java:25)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
@@ -126,9 +126,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
         </test-method> <!-- clickActivity -->
       </class> <!-- testCases.DiaryTabTest -->
     </test> <!-- Diary Tab Test -->
-    <test name="NewcaseEntry Tab Test" duration-ms="11" started-at="2019-12-02T06:43:40Z" finished-at="2019-12-02T06:43:40Z">
+    <test name="NewcaseEntry Tab Test" duration-ms="19" started-at="2020-03-06T07:04:06Z" finished-at="2020-03-06T07:04:06Z">
       <class name="testCases.NewCaseEntryTabTest">
-        <test-method status="SKIP" signature="addNewCaseEntry(java.util.Hashtable)[pri:0, instance:testCases.NewCaseEntryTabTest@1e800aaa]" name="addNewCaseEntry" duration-ms="1" started-at="2019-12-02T06:43:40Z" data-provider="getdata" finished-at="2019-12-02T06:43:40Z">
+        <test-method status="SKIP" signature="addNewCaseEntry(java.util.Hashtable)[pri:0, instance:testCases.NewCaseEntryTabTest@4116aac9]" name="addNewCaseEntry" duration-ms="0" started-at="2020-03-06T07:04:06Z" data-provider="getdata" finished-at="2020-03-06T07:04:06Z">
           <params>
             <param index="0">
               <value>
@@ -144,9 +144,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[org.testng.SkipException: Skipping the test as runmode is set to no
 at testCases.NewCaseEntryTabTest.addNewCaseEntry(NewCaseEntryTabTest.java:24)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
@@ -179,9 +179,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
         </test-method> <!-- addNewCaseEntry -->
       </class> <!-- testCases.NewCaseEntryTabTest -->
     </test> <!-- NewcaseEntry Tab Test -->
-    <test name="COBCaseSearchTest Tab Test" duration-ms="268399" started-at="2019-12-02T06:43:40Z" finished-at="2019-12-02T06:48:09Z">
+    <test name="COBCaseSearchTest Tab Test" duration-ms="273215" started-at="2020-03-06T07:04:06Z" finished-at="2020-03-06T07:08:40Z">
       <class name="testCases.COBCaseSearchTest">
-        <test-method status="PASS" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.COBCaseSearchTest@49438269]" name="clickActivity" duration-ms="268398" started-at="2019-12-02T06:43:40Z" data-provider="getdata" finished-at="2019-12-02T06:48:09Z">
+        <test-method status="PASS" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.COBCaseSearchTest@7a8c8dcf]" name="clickActivity" duration-ms="273214" started-at="2020-03-06T07:04:06Z" data-provider="getdata" finished-at="2020-03-06T07:08:40Z">
           <params>
             <param index="0">
               <value>
@@ -194,9 +194,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
         </test-method> <!-- clickActivity -->
       </class> <!-- testCases.COBCaseSearchTest -->
     </test> <!-- COBCaseSearchTest Tab Test -->
-    <test name="COBActivitytTabTest Tab Test" duration-ms="42707" started-at="2019-12-02T06:48:09Z" finished-at="2019-12-02T06:48:51Z">
+    <test name="COBActivitytTabTest Tab Test" duration-ms="43668" started-at="2020-03-06T07:08:40Z" finished-at="2020-03-06T07:09:23Z">
       <class name="testCases.COBActivitytTabTest">
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.COBActivitytTabTest@5e5d171f]" name="doLogin" duration-ms="42706" started-at="2019-12-02T06:48:09Z" data-provider="getdata" finished-at="2019-12-02T06:48:51Z">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.COBActivitytTabTest@131ef10]" name="doLogin" duration-ms="43666" started-at="2020-03-06T07:08:40Z" data-provider="getdata" finished-at="2020-03-06T07:09:23Z">
           <params>
             <param index="0">
               <value>
@@ -209,9 +209,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
         </test-method> <!-- doLogin -->
       </class> <!-- testCases.COBActivitytTabTest -->
     </test> <!-- COBActivitytTabTest Tab Test -->
-    <test name="COBDiaryTabTest Tab Test" duration-ms="542488" started-at="2019-12-02T06:48:51Z" finished-at="2019-12-02T06:57:54Z">
+    <test name="COBDiaryTabTest Tab Test" duration-ms="118973" started-at="2020-03-06T07:09:23Z" finished-at="2020-03-06T07:11:22Z">
       <class name="testCases.COBDiaryTabTest">
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.COBDiaryTabTest@c0c2f8d]" name="doLogin" duration-ms="542486" started-at="2019-12-02T06:48:51Z" data-provider="getdata" finished-at="2019-12-02T06:57:54Z">
+        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.COBDiaryTabTest@79d8407f]" name="doLogin" duration-ms="118963" started-at="2020-03-06T07:09:23Z" data-provider="getdata" finished-at="2020-03-06T07:11:22Z">
           <params>
             <param index="0">
               <value>
@@ -219,14 +219,54 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail -Unable to select the optiondiarycatogory1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail -Unable to select the optiondiarycatogory1
+at org.testng.Assert.fail(Assert.java:96)
+at com.qtpselenium.util.Keywords.executekeywords(Keywords.java:152)
+at testCases.COBDiaryTabTest.doLogin(COBDiaryTabTest.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
       </class> <!-- testCases.COBDiaryTabTest -->
     </test> <!-- COBDiaryTabTest Tab Test -->
-    <test name="COBNewCaseEntryTabTest Tab Test" duration-ms="263665" started-at="2019-12-02T06:57:54Z" finished-at="2019-12-02T07:02:18Z">
+    <test name="COBNewCaseEntryTabTest Tab Test" duration-ms="56813" started-at="2020-03-06T07:11:22Z" finished-at="2020-03-06T07:12:19Z">
       <class name="testCases.COBNewCaseEntryTabTest">
-        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.COBNewCaseEntryTabTest@8c3b9d]" name="doLogin" duration-ms="263663" started-at="2019-12-02T06:57:54Z" data-provider="getdata" finished-at="2019-12-02T07:02:18Z">
+        <test-method status="FAIL" signature="doLogin(java.util.Hashtable)[pri:0, instance:testCases.COBNewCaseEntryTabTest@1757cd72]" name="doLogin" duration-ms="56811" started-at="2020-03-06T07:11:22Z" data-provider="getdata" finished-at="2020-03-06T07:12:19Z">
           <params>
             <param index="0">
               <value>
@@ -234,14 +274,54 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Fail -Unable to select the optionclientname3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Fail -Unable to select the optionclientname3
+at org.testng.Assert.fail(Assert.java:96)
+at com.qtpselenium.util.Keywords.executekeywords(Keywords.java:152)
+at testCases.COBNewCaseEntryTabTest.doLogin(COBNewCaseEntryTabTest.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
       </class> <!-- testCases.COBNewCaseEntryTabTest -->
     </test> <!-- COBNewCaseEntryTabTest Tab Test -->
-    <test name="Letter Tab Test" duration-ms="3" started-at="2019-12-02T07:02:18Z" finished-at="2019-12-02T07:02:18Z">
+    <test name="Letter Tab Test" duration-ms="2" started-at="2020-03-06T07:12:19Z" finished-at="2020-03-06T07:12:19Z">
       <class name="testCases.LetterTabTest">
-        <test-method status="SKIP" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.LetterTabTest@1dac5ef]" name="clickActivity" duration-ms="0" started-at="2019-12-02T07:02:18Z" data-provider="getdata" finished-at="2019-12-02T07:02:18Z">
+        <test-method status="SKIP" signature="clickActivity(java.util.Hashtable)[pri:0, instance:testCases.LetterTabTest@424e1977]" name="clickActivity" duration-ms="1" started-at="2020-03-06T07:12:19Z" data-provider="getdata" finished-at="2020-03-06T07:12:19Z">
           <params>
             <param index="0">
               <value>
@@ -257,9 +337,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[org.testng.SkipException: Skipping the test as runmode is set to no
 at testCases.LetterTabTest.clickActivity(LetterTabTest.java:25)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
